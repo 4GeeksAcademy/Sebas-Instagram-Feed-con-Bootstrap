@@ -1,0 +1,57 @@
+
+.img-fluid {
+    width: 650px; /* Ancho fijo para las imágenes */
+    height: 650px; /* Altura fija para las imágenes  */
+    padding: 6px;
+
+    object-fit: cover; /* las imágenes se ajusten al tamaño sin deformarse */
+
+}
+
+.red-text.dropdown-item{
+    color: rgb(255, 0, 0);
+}
+
+.custom-card {
+    border: 2px solid #ccc; /* Borde gris alrededor del cuadrado */
+    padding: 10px; /* Espacio interior del cuadrado */
+    margin: 10px; /* Espacio entre los posts */
+}
+
+.custom-card img {
+    max-width: 100%;
+}
+  
+.nav-link:not(.active) i {
+    color: gray;
+  }
+
+.navbar>a {
+    margin-left: 50px
+}
+
+.btn-group {
+    margin-right: 50px
+}
+
+.navbar {
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus necesidades */
+    height: 80px
+}
+
+.card-img-top {    
+    height: 600px; /* Altura fija para las imágenes  */
+    object-fit: cover; /* las imágenes se ajusten al tamaño sin deformarse */
+
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.card-text {
+    padding: 10px;
+}

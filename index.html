@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Instagram Feed</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary bg-light">
+        <a>
+            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Bootstrap" width="25" height="25"
+                class="d-inline-block align-text-top">
+            <strong>Instagram</strong>
+        </a>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <div>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@getbootstrap">Create a new post</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">Caption:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <button type="button" class="btn btn-light square-button"><i
+                                                class="fas fa-camera icon"></i></button>
+                                        <button type="button" class="btn btn-light square-button"><i
+                                                class="fas fa-map-marker-alt icon"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                        data-bs-display="static" aria-expanded="false">
+                        <i class="fas fa-cog icon"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><button class="dropdown-item" type="button">Profile</button></li>
+                        <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                        <li><button class="dropdown-item" type="button">Privacy and Data</button></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item red-text" type="button">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+            </br>
+    </nav>
+
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item show">
+                <a class="nav-link active" data-bs-toggle="tab" aria-selected="true" href="#link1"><i
+                        class="fas fa-th icon"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-dark" data-bs-toggle="tab" aria-selected="false" href="#link2"><i
+                        class="fas fa-square icon"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="link1">
+            <div class="row g-0">
+                <div class="col-4">
+                    <img src="https://www.clarin.com/2021/08/01/oCm9C1fRQ_720x0__1.jpg" alt="Imagen 1"
+                        class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg"
+                        alt="Imagen 2" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="https://nupec.com/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-24-a-las-17.33.44.png"
+                        alt="Imagen 3" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img src="https://as.com/futbol/imagenes/2018/04/03/album/1522790583_576532_1522790702_album_grande.jpg"
+                        class="img-fluid" alt="Imagen 4">
+                </div>
+                <div class="col-4">
+                    <img src="https://www.duna.cl/media/2022/11/copa-del-mundo-750x485-1.jpg" class="img-fluid"
+                        alt="Imagen 5">
+                </div>
+                <div class="col-4">
+                    <img src="https://img.asmedia.epimg.net/resizer/USkP0ECSz70tncMU-ga3jIiJPS4=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/6X2MJHI37RIVBMNJ7H6IBRDKPQ.jpg"
+                        class="img-fluid" alt="Imagen 6">
+                </div>
+                <div class="col-4">
+                    <img src="https://imagenes.elpais.com/resizer/gDCERC8MIP2DDvHJ8DHurb0iqag=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/XTIQ3AT3CVMV5K6UBQRVYCZZJA.jpg"
+                        class="img-fluid" alt="Imagen 7">
+                </div>
+                <div class="col-4">
+                    <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/03/chile-pais.jpg" class="img-fluid"
+                        alt="Imagen 8">
+                </div>
+                <div class="col-4">
+                    <img src="https://content.skyscnr.com/m/25adda91669a1d75/original/GettyImages-466024975_doc.jpg?resize=1800px:1800px&quality=100"
+                        class="img-fluid" alt="Imagen 9">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="link2">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-8">
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Un pug columpiándose</h2>
+                                <p>01/09</p>
+                            </div>
+                            <img src="https://www.clarin.com/2021/08/01/oCm9C1fRQ_720x0__1.jpg" alt="Imagen 1"
+                                class="card-img-top">
+                            <p class="card-text"><strong> 218 Likes</strong></br> Este perrito está explorando
+                                emocionantes deportes extremos.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Rayito veloz</h2>
+                                <p>02/09</p>
+                            </div>
+                            <img src="https://images.ecestaticos.com/h34TvzTFVdrau9Un4Wdmwhed_e4=/0x115:2265x1390/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8ec%2F08c%2F85c%2F8ec08c85c866ccb70c4f1c36492d890f.jpg"
+                                alt="Imagen 2" class="card-img-top">
+                            <p class="card-text"><strong> 23 Likes</strong></br> Rayito corre velozmente porque le han
+                                traído su comida favorita.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Rocky</h2>
+                                <p>03/09</p>
+                            </div>
+                            <img src="https://nupec.com/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-24-a-las-17.33.44.png"
+                                alt="Imagen 3" class="card-img-top">
+                            <p class="card-text"><strong> 525 Likes</strong></br> Una foto de la carita de Rocky.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Gol de CR7</h2>
+                                <p>04/09</p>
+                            </div>
+                            <img src="https://as.com/futbol/imagenes/2018/04/03/album/1522790583_576532_1522790702_album_grande.jpg"
+                                class="card-img-top" alt="Imagen 4">
+                            <p class="card-text"><strong> 23 Likes</strong></br> Espectacular gol de chilena del jugador
+                                que celebra con un 'Siiiiiiuuuuuu'
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Copa del mundo</h2>
+                                <p>05/09</p>
+                            </div>
+                            <img src="https://www.duna.cl/media/2022/11/copa-del-mundo-750x485-1.jpg"
+                                class="card-img-top" alt="Imagen 5">
+                            <p class="card-text"><strong> 859 Likes</strong></br>¿Quién crees que ganará la Copa del
+                                Mundo?
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Ronaldinho Balon de Oro 2005</h2>
+                                <p>06/09</p>
+                            </div>
+                            <img src="https://img.asmedia.epimg.net/resizer/USkP0ECSz70tncMU-ga3jIiJPS4=/360x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/6X2MJHI37RIVBMNJ7H6IBRDKPQ.jpg"
+                                class="card-img-top" alt="Imagen 6">
+                            <p class="card-text"><strong> 2583 Likes</strong></br>Jugando para el FC Barcelona, mostró
+                                un rendimiento excepcional en el campo, lo que le valió el reconocimiento como el mejor
+                                judador del mundo.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Flamengos</h2>
+                                <p>07/09</p>
+                            </div>
+                            <img src="https://imagenes.elpais.com/resizer/gDCERC8MIP2DDvHJ8DHurb0iqag=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/XTIQ3AT3CVMV5K6UBQRVYCZZJA.jpg"
+                                class="card-img-top" alt="Imagen 7">
+                            <p class="card-text"><strong> 350 Likes</strong></br>Los flamencos son realmente asombrosas
+                                aves, conocidas por su elegancia y su distintiva coloración rosada.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Las Torres del Paine</h2>
+                                <p>08/09</p>
+                            </div>
+                            <img src="https://tipsparatuviaje.com/wp-content/uploads/2019/03/chile-pais.jpg"
+                                class="card-img-top" alt="Imagen 8">
+                            <p class="card-text"><strong> 756 Likes</strong></br>Las Torres del Paine son un verdadero
+                                regalo de la naturaleza. Estas imponentes formaciones de granito en el corazón de la
+                                Patagonia chilena te dejan sin aliento con su majestuosidad.
+                            </p>
+                        </div>
+                        </br>
+                        <div class="card" tyle="max-width: 18rem;">
+                            <div class="card-title">
+                                <h2>Isla de Pascua</h2>
+                                <p>09/09</p>
+                            </div>
+                            <img src="https://content.skyscnr.com/m/25adda91669a1d75/original/GettyImages-466024975_doc.jpg?resize=1800px:1800px&quality=100"
+                                class="card-img-top" alt="Imagen 9">
+                            <p class="card-text"><strong> 4698 Likes</strong></br>Sus icónicas moáis, imponentes
+                                estatuas de piedra, cuentan la historia de una civilización antigua y su profunda
+                                conexión con la naturaleza.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
